@@ -1,0 +1,107 @@
+/* button base style */
+.base {
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* button type styles */
+.solid {
+  background-color: #6b7280;
+}
+
+.text,
+.outline {
+  color: #6b7280;
+  background-color: transparent;
+}
+
+.outline {
+  border: 2px solid #6b7280;
+}
+
+.solid-primary {
+  background-color: #3b82f6;
+}
+
+.text-primary,
+.outline-primary {
+  background-color: transparent;
+  color: #3b82f6;
+}
+
+.outline-primary {
+  border: 2px solid #3b82f6;
+}
+
+.solid-success {
+  background-color: #22c55e;
+}
+
+.text-success,
+.outline-success {
+  background-color: transparent;
+  color: #22c55e;
+}
+
+.outline-success {
+  border: 2px solid #22c55e;
+}
+
+.solid-danger {
+  background-color: #ef4444;
+  border: 2px solid #ef4444;
+}
+
+.text-danger,
+.outline-danger {
+  background-color: transparent;
+  color: #ef4444;
+}
+
+.outline-danger {
+  border: 2px solid #ef4444;
+}
+
+/* button size styles */
+.xs {
+  font-size: 0.75rem;
+  padding: 4px;
+}
+
+.sm {
+  font-size: 0.875rem;
+  padding: 6px;
+}
+
+.md {
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.lg {
+  font-size: 1.125rem;
+  padding: 10px;
+}
+
+/* button border radius styles */
+.radius-none {
+  border-radius: 0;
+}
+
+.radius-xs {
+  border-radius: 2px;
+}
+
+.radius-sm {
+  border-radius: 4px;
+}
+
+.radius-md {
+  border-radius: 6px;
+}
+
+.radius-lg {
+  border-radius: 100px;
+}
